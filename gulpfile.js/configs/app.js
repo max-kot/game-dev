@@ -1,0 +1,27 @@
+const app = {
+	gulp: require('gulp'),
+	del: require('del'),
+	newer: require('gulp-newer'),
+	plumber: require('gulp-plumber'),
+	notify: require('gulp-notify'),
+	browserSync: require('browser-sync').create(),
+	fileInclude: require('gulp-file-include'),
+	htmlmin: require('gulp-htmlmin'),
+	sass: require('gulp-sass')(require('sass')),
+	cleanCss: require('gulp-clean-css'),
+	autoprefixer: require('gulp-autoprefixer'),
+	groupCssMediaQueries: require('gulp-group-css-media-queries'),
+	cssShorthand: require('gulp-shorthand'),
+	rename: require('gulp-rename'),
+	babel: require('gulp-babel'),
+	webpack: require('webpack'),
+	webpackStream: require('webpack-stream'),
+	imagemin: require('gulp-imagemin'),
+	webp: require('gulp-webp'),
+	webpHtml: require('gulp-webp-html'),
+	webpCss: require('gulp-webp-css'),
+	fonter: require('gulp-fonter'),
+	ttf2woff2: require('gulp-ttf2woff2'),
+}
+
+module.exports = app;

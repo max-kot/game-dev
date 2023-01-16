@@ -1,0 +1,30 @@
+.header {
+	padding: 16px 0px;
+	background: $gradient;
+
+	&__body {
+		display: flex;
+		align-items: center;
+
+		@media (max-width: 998px) {
+			justify-content: space-between;
+		}
+
+		& > *:not(:last-child) {
+			margin-right: 15px;
+		}
+	}
+
+	&__logo {
+		flex-shrink: 0;
+		&:not(:last-child) {
+			margin-right: 211px;
+			@media (max-width: 998px) {
+				margin-right: 15px;
+			}
+		}
+	}
+
+	&__menu {
+	}
+}
