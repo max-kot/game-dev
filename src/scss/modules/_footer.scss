@@ -1,0 +1,24 @@
+.footer {
+	padding: 16px 0px;
+	background: $gradient;
+	position: relative;
+	z-index: 55;
+	&__body {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		gap: 15px 30px;
+	}
+
+	&__logo {
+	}
+
+	&__copy {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 143%;
+		color: inherit;
+	}
+}
