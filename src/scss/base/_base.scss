@@ -79,3 +79,16 @@ body {
 		background: $accent;
 	}
 }
+
+.section-title {
+	margin: 0;
+	line-height: 143%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: rem(30);
+	letter-spacing: 0.05em;
+	color: $accent;
+	border-bottom: 5px solid currentColor;
+	max-width: 380px;
+	font-weight: 700;
+}
