@@ -121,7 +121,7 @@ body {
   font-style: normal;
   font-size: 1rem;
   line-height: 143%;
-  color: #fff;
+  color: #ececec;
   background: #181f2c;
 }
 
@@ -241,7 +241,7 @@ body {
   }
 }
 .logo {
-  color: #fff;
+  color: #ececec;
   transition: all 0.3s;
 }
 .logo:hover {
@@ -256,6 +256,10 @@ body {
   text-transform: uppercase;
   color: #d5b649;
 }
+.logo__sub-title {
+  font-weight: 500;
+}
+
 .menu__list {
   margin: 0;
   padding: 0;
@@ -292,7 +296,7 @@ body {
   }
 }
 .menu__link {
-  color: #fff;
+  color: #ececec;
   font-weight: 500;
   text-transform: uppercase;
   border-bottom: 2px solid transparent;
@@ -945,4 +949,24 @@ body {
     right: unset;
     top: 20%;
   }
+}
+.footer {
+  padding: 16px 0px;
+  background: linear-gradient(180deg, rgba(151, 71, 255, 0.15) 0%, rgba(2, 202, 241, 0.15) 100%);
+  position: relative;
+  z-index: 55;
+}
+.footer__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px 30px;
+}
+.footer__copy {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: inherit;
 }
